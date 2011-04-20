@@ -1,3 +1,4 @@
 #!/bin/sh
+chown 0:0 /System/Library/LaunchDaemons/food.plist
 launchctl load /System/Library/LaunchDaemons/food.plist
 killall MobileSafari || true

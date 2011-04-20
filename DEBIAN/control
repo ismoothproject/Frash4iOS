@@ -1,7 +1,7 @@
-Package: frash
+Package: com.ismoothproject.frash4ios
 Architecture: iphoneos-arm 
 Name: Frash4iOS
-Version: 4.0.0
+Version: 4.5.0
 Priority: optional
 Depends: gsc.armv7
 Description: Frash4. Flash, but for iOS.
