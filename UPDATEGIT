@@ -1,3 +1,4 @@
 git add *
-git commit -m '4.5.0.2'
+git rm *.DS_Store
+git commit -m '4.5.0.4'
 git push git@github.com:ismoothproject/Frash4iOS.git
