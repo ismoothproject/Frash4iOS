@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>EnableTransactions</key>
+	<true/>
+	<key>Label</key>
+	<string>food</string>
+	<key>ProgramArguments</key>
+	<array>
+		<string>/var/mobile/frash/food_wrapper</string>
+		<string>/var/mobile/frash/food</string>
+		<string>launchd</string>
+	</array>
+	<key>Sockets</key>
+	<dict>
+		<key>Listeners</key>
+		<dict>
+			<key>SockServiceName</key>
+			<string>4242</string>
+		</dict>
+	</dict>
+	<key>Username</key>
+	<string>mobile</string>
+</dict>
+</plist>

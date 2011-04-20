@@ -1,0 +1,11 @@
+Package: frash
+Architecture: iphoneos-arm 
+Name: Frash4iOS
+Version: 4.0.0
+Priority: optional
+Depends: gsc.armv7
+Description: Frash4. Flash, but for iOS.
+Homepage: http://wix.com/cjag29/ijailbreaknow
+Maintainer: iSmoothProject <cjag@me.com>
+Section: Utilities
+
