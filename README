@@ -17,3 +17,28 @@ make -C libgcc
 make -C food
 xcodebuild -alltargets -project Player2/Player2.xcodeproj
 
+#You WILL get a build error when you finish compiling. It is ok!
+
+#Now what you have to do to build a deb is in xcode, archive plugin.dylib and save it somewhere, then copy it into /Directory_to_Frash/Player2/build/Release-iphoneos
+
+#Then Run in terminal ./fakeinstall
+
+#Copy libflashplayer.so to iroot/var/mobile/frash
+
+#Copy everything inside paste2iroot to iroot/usr/lib (You need to make the usr/lib folders)
+
+#Copy iroot to somewhere and rename it to Frash4iOS
+
+#Copy DEBIAN into Frash4iOS
+
+#In DEBIAN, change the control files version to whatever you like
+
+#check folders and remove any .DS_Store files you might find. They are your ENEMY!
+
+#In terminal, cd to the directory where Frash4iOS is in
+
+#sudo dpkg -b Frash4iOS
+
+#Then you will have Frash4iOS.deb
+
+#Notes: Make sure you are on a Admin Acount. You need to have dpkg-deb installed on your mac, which can be a pain. Google it.
